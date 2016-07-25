@@ -70,16 +70,16 @@ question4();
 
 
 function question5() {
- var years = prompt('How many years of programming experience do you have? Please enter the input in digits.');
+ var years = parseInt(prompt('How many years of programming experience do you have? Please enter the input in digits.'));
  user.years = years
 
- if (years < '2') {
+ if (years < 2) {
   alert('You are a beginner! Welcome!'); 
 }
-else if (years < '5') {
+else if (years < 5) {
   alert('Congratulations, you are well on your way to being a senior programmer'); 
 }
-else if  (years >= '5') {
+else if  (years >= 5) {
   alert('You are a senior programmer!'); 
 }
 else {
